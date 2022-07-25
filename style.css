@@ -1,0 +1,115 @@
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.main-section{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+}
+
+.left-section{
+    width: 50%;
+    height: 100%;
+    background-color: #4152B3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.left-section .left-content h1{
+    color: white;
+    font-size: 3rem;
+    font-weight: 500;
+}
+
+.left-section .left-content .welcome{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.2rem;
+    font-weight: 300;
+}
+
+.left-section .left-content .welcome a{
+    color: white;
+    text-decoration: underline;
+}
+
+.left-section .left-content form {
+    margin: 2rem 0;
+}
+
+.left-section .left-content form .form-group{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    margin-bottom: 1.5rem;
+}
+
+.left-section .left-content form .form-group label{
+    font-weight: 300;
+    margin-bottom: 0.4rem;
+}
+
+.left-section .left-content form .form-group input{
+    padding: 0.8rem 0.5rem;
+    border-radius: 0.2rem;
+    outline: none;
+    border: none;
+}
+
+.left-section .left-content form .logged-in{
+    display: flex;
+    gap: 1rem;
+    color: white;
+}
+
+.left-section .left-content form .btn-group{
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+    gap: 1rem;
+}
+
+.left-section .left-content form .btn-group .btn{
+    color: white;
+    background-color: #7B96D4;
+    padding: 0.8rem 0.5rem;
+    border-radius: 0.2rem;
+    text-align: center;
+    font-weight: 500;
+}
+
+.left-section .left-content form .btn-group .btn2{
+    background-color: #A0A8D9;
+}
+
+.right-section{
+    width: 50%;
+    height: 100%;
+    background-color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.right-section .image-container{
+    width: 70%;
+    height: auto;
+}
+
+.right-section .image-container img{
+    width: 100%;
+    height: auto;
+}
